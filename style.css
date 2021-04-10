@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 45%;
+    float: left;
+}
+.half-width img{
+    width: 502px;
+    height: 578px;
+}
+.left-margin{
+    margin-left: 7%;
+    margin-top: 75px;
+}
+
+.name-highlight{
+    color: deeppink;
+    font-weight: 900;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(deeppink, pink);
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.right-margin{
+    margin-left: 5%;
+}
+
+.bio-pic-margin{
+    margin-left: 2%;
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.margin-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest-work-heading{
+    text-align: center;
+}
+.work{
+    width: 30%;
+    float: left;
+    
+}
+
+.work img{
+    width: 100%;
+    margin-left: 2%;
+}
+.review{
+    margin-bottom: 150px;
+}
+.review h2{
+    font-weight:700;
+    text-align: center;
+}
+
+.review-man{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.review-man h3{
+    color: gray;
+}
+.review-man p{
+    margin-top: 60px;
+}
+
+.contact-part{
+    
+    background-color: mediumvioletred;
+    width: 50%;
+    height: 300px;
+    color: white;
+    margin-left: 25%;
+    text-align: center;
+    padding-top: 70px;
+    border-radius: 20px;
+}
+.contact-part h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+footer{
+    text-align: center;
+    color: gray;
+}
